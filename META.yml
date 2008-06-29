@@ -18,8 +18,8 @@ no_index:
 provides:
   Module::Install::POE::Test::Loops:
     file: lib/Module/Install/POE/Test/Loops.pm
-    version: 0.01
+    version: 0.02
 requires:
-  POE::Test::Loops: 1.000
+  POE::Test::Loops: 1.001
   perl: 5.005
-version: 0.01
+version: 0.02

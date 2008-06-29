@@ -11,18 +11,12 @@ use Carp ();
 
 Module::Install::POE::Test::Loops - Install tests for L<POE::Loop>s
 
-=head1 VERSION
-
-0.01
-
 =cut
 
-use vars qw{$VERSION $ISCORE @ISA};
-BEGIN {
-  $VERSION = '0.01';
-  $ISCORE  = 1;
-  @ISA     = qw{Module::Install::Base};
-}
+use vars qw{$VERSION @ISA};
+$VERSION = '0.02';
+@ISA     = qw{Module::Install::Base};
+
 
 =head1 COMMANDS
 
@@ -71,7 +65,7 @@ notified of progress on your bug as I make changes.
 
 Martijn van Beers  <martijn@cpan.org>
 
-=head1 LICENCE gpl
+=head1 LICENSE gpl
 
 This software is Copyright (c) 2008 by Martijn van Beers.
 
