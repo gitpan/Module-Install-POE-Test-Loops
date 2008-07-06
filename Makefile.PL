@@ -4,7 +4,7 @@ name		'Module-Install-POE-Test-Loops';
 all_from	'lib/Module/Install/POE/Test/Loops.pm';
 
 
-requires 'POE::Test::Loops'	=> '1.001';
+requires 'POE::Test::Loops'	=> '1.002';
 
 test_requires 'Test::More' => '0';
 
